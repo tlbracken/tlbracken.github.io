@@ -1,40 +1,108 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Scuba Steve Fanpage</title>
-    </head>
-    <body>
-        <!-- header  -->
-        <center><h1>Welcome to the very first Scuba Steve Fanpage</h1></center>
-        <center><p>Pardon our dust, we're under construction</p></center>
-        <hr>
-        <!--  -->
-        <center><img src="scuba badge.jpg" alt=""></center>
-        <p><a href="whatever.html">Get to my second awesome page</a></p>
-        <!-- List of divers -->
-        <h3>Famous Scuba Divers:</h3>
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Profession</th>
-           </tr>
-           <tr>
-               <td>Adam Sandler</td>
-               <td><img src="sandler.jpeg" alt=""></td>
-               <td>Movie Actor</td>
-           </tr>
-           <tr>
-                <td>James Bond</td>
-                <td><img src="bond.jpg" alt=""></td>
-                <td>Spy</td>
-            </tr> 
-            <tr>
-                <td>Jacques Cousteau</td>
-                <td><img src="cousteau.jpg" alt=""></td>
-                <td>Real Scuba Diver</td>
-            </tr>
-        </table>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <title>Wreck of the Barque Stefano</title>
+    <!--CSS layer-->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    
+    <!-- NavBar -->   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href=#> <img src="logo.png" height="30px">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">The Story <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fas fa-anchor"></i> The Ship</a>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-male"></i> The Crew
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Captain xx</a>
+                        <a class="dropdown-item" href="#">Miho Baccich</a>
+                        <a class="dropdown-item" href="#">Ivan Jurich</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Other Members</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-images"></i> Photo Gallery</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#"><i class="fas fa-question-circle"></i> About Us</a>
+                        </li>
+                  </ul>
+                </div>
+    </nav>
+             
+    <!--Jumbotron-->
+    <div class="jumbotron text-center">
+                    <div class="container-fluid">
+                      <h1 class="display-4">The Wreck of the Barque Stefano </h1>
+                      <img class="jumbo" src="aus copy.png">
+                      <p class="lead">A history compiled by the survivor's families</p>
+                    </div>
+    </div>          
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6"></div>
+        <div class="col-sm-6"></div>
+      </div>
+    </div>
+
+    <!--Containers in grid-->              
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <h1> Column 1</h1>
+            </div>
+            <div class="col-md-8">
+                <h1> Column 2</h1>
+            </div>
+            <div class="col-md-2">
+                <h1> Column 3</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <h1> Column 1</h1>
+            </div>
+            <div class="col-md-8">
+                <h1> Column 2</h1>
+            </div>
+            <div class="col-md-2">
+                <h1> Column 3</h1>
+            </div>
+        </div>
+    </div>
 
 
-    </body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
