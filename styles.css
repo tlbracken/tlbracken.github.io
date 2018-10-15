@@ -1,20 +1,121 @@
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height: 200px;
+    max-height: 550px;
+}
 
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+.carousel-caption {
+    color: black;
+}
 h1.display-4{
     color: white;
-    padding: 10px;
-    
+    padding: 10px; 
+    font-size: 350%;
+}
+h1.major{
+    color: whitesmoke;
+    font-size: 100px;
+}
+h1.display-5{
+    color: black;
+    padding: 10px;  
+}
+h3.content{
+    color: black;
+    padding: 20px;
+    font-style: italic;
 }
 p.lead{
     color: white;
-    padding: 10px;
+    font-size: 175%;
+
 }
+p.header{
+    color: black;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+}
+p.content{
+    color: black;
+    text-align: left;
+}
+p.description{
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 75%;
+}
+p.footer{
+    color: black;
+    margin-bottom: 0;
+    font-size: small;
+}
+p.smitalics{
+    color: grey;
+    font-size: xx-small;
+    text-align: left;
+}
+
 .jumbotron {
     background-image: url("ocean1.jpg");
     background-attachment: fixed;
     background-size: cover;
+    margin-bottom: 0;
 }
-
+.jumbotron1 {
+    background-image: url("sand1.jpg");
+    background-attachment: fixed;
+    margin-bottom: 0;
+}
+.jumbotron3 {
+    background-image: url("2940_006.png");
+    background-attachment: fixed;
+    margin-bottom: 0;
+    height: ;
+}
 img.jumbo {
     width: 50%;
-
+    padding: 10px;
+}
+img.fit{
+    max-width: 100%;
+    border-style: solid;
+    border-width: 1px;
+}
+img.ship{
+    background-size: cover;
+    max-width: 100%;
+}
+img.profile{
+    max-width: 100%;
+}
+img.full{
+    max-width: 100%;
+    border-width: 0.5;
+    border-style: double; 
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+.carousel-indicators .active {
+    background-color: black;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+}
+p.name{
+    margin-bottom: 0;
+    font-stretch: extra-expanded;
+    font-weight: 300;
 }
